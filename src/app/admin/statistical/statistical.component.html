@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Biểu đồ cột sử dụng ggchart</title>
+	
+</head>
+<body>
+	<div id="chart"></div>
+	<script>
+		var data = [
+			{ name: "Monday", value: 10 },
+			{ name: "Tuesday", value: 20 },
+			{ name: "Wednesday", value: 30 },
+			{ name: "Thursday", value: 40 },
+			{ name: "Friday", value: 50 }
+		];
+
+		var chart = new Chart(document.getElementById("chart"));
+		chart.render([{ data: data, name: "Data" }], { type: "bar", orientation: "vertical" });
+	</script>
+</body>
+</html>

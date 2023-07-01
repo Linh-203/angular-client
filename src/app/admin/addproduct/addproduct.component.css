@@ -1,0 +1,35 @@
+form{
+    width: 50%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-login {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-submit{
+    background-color:var(--2light-color) !important;
+    color: white !important;
+    font-weight: 700 !important;
+  }
+  h1 {
+    text-align: center;
+  }
+  .wavy{
+    fill: var(--primary-color);
+    position: absolute;
+    top:0;
+    transform: rotate(180deg);
+  }
+  
